@@ -7,7 +7,7 @@ from decimal import Decimal
 import uuid
 import random
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.secret_key = 'your_secret_key_here' # IMPORTANT: Change this to a strong, random key in production!
 
 # AWS Setup using IAM Role
