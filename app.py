@@ -515,7 +515,7 @@ def cancel_booking():
     return redirect(url_for('dashboard'))
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     # IMPORTANT: In a production environment, disable debug mode and specify a production-ready host.
     app.run(debug=True, host='0.0.0.0')
 
